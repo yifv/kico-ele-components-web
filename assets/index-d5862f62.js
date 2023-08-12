@@ -1,0 +1,1 @@
+import{d as a,r as n,a as i,o as l,c as r,b as c,w as _,e as p,u as d,i as f}from"./index-d46f4040.js";const b=a({__name:"index",setup(u){let e=n(!1);return(m,o)=>{const t=i("k-choose-icon");return l(),r("div",null,[c(t,{title:"选择标题",visible:d(e),"onUpdate:visible":o[0]||(o[0]=s=>f(e)?e.value=s:e=s)},{default:_(()=>[p("选择图标")]),_:1},8,["visible"])])}}});export{b as default};

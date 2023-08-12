@@ -1,0 +1,1 @@
+import{d as n,a as c,o as s,f as r}from"./index-d46f4040.js";const l=n({__name:"index",setup(t){const o=e=>{console.log("TCL :-> changeArea :-> val:",e)};return(e,_)=>{const a=c("k-choose-area");return s(),r(a,{onChange:o})}}});export{l as default};

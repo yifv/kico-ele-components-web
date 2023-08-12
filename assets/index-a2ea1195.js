@@ -1,0 +1,5 @@
+import{d as i,r as o,a as v,o as p,c as m,b as u,u as _}from"./index-d46f4040.js";const f=i({__name:"index",setup(k){let l=o([{title:"购物",start:"2023-07-06 08:10",end:"2023-07-06 12:00",editable:!0},{title:"敲代码",start:"2023-07-12 09:30",end:"2023-07-12 18:30"}]);const a=e=>{l.value.push({title:"学习",start:e.dateStr+" 12:00",end:e.dateStr+" 18:00"})},r=e=>{console.log("KAI :-> eventClick :-> info:",e)},s=e=>{let n=document.createElement("div"),t=e.timeText.split("-"),c=t[0].replace("上午","").replace("下午","").replace("时",""),d=t[1].replace("上午","").replace("下午","").replace("时","");return n.innerHTML=`
+                    <img src="src/assets/vue.svg" style="width: 30px; height: 30px" />
+                    <div>开始时间: ${c}</div>
+                    <div>结束时间: ${d}</div>
+                    <div>标题: ${e.event._def.title}</div>`,{domNodes:[n]}};return(e,n)=>{const t=v("k-calendar");return p(),m("div",null,[u(t,{displayEventEnd:"",events:_(l),eventContent:s,onDateClick:a,onEventClick:r},null,8,["events"])])}}});export{f as default};

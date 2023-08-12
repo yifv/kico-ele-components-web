@@ -1,0 +1,1 @@
+import{_,a,o as c,c as s,b as t,w as o,e as n}from"./index-d46f4040.js";const d={};function r(p,l){const e=a("k-trend");return c(),s("div",null,[t(e,{upIcon:"CaretTop"},{default:o(()=>[n("营业额")]),_:1}),t(e,{downIcon:"CaretBottom",type:"down"},{default:o(()=>[n("销售额")]),_:1})])}const f=_(d,[["render",r],["__scopeId","data-v-c26a00b3"]]);export{f as default};
